@@ -8,14 +8,14 @@
           },
         "vm_info": 
           {
-            "OS" : "windows",
-            "OS_version" : "2012",
+            "OS" : "centos",
+            "OS_version" : "8",
             "vm_name" : "test-target",
             "machine_type" : "e2-medium",
             "username":"login-target",
-            "ssh_authorized_keys" : "",
+            "ssh_authorized_keys" : "ssh-rsa .....",
             "volume" : [50, 50],
-            "user_script":"win_script.ps1",
+            "user_script":"lin_script.sh",
             "tags":"",
             "firewall_rule":[]
         }
