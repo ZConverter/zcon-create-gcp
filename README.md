@@ -219,7 +219,7 @@ You can use one of the following steps depends on your case:
 3. Run the following commands:
     
     ```
-    gcp_main.exe --info_json ./ZCM/info.json
+    zcon_create_gcp.exe --info_json ./ZCM/info.json
     ```
     
 
@@ -234,7 +234,7 @@ You can use one of the following steps depends on your case:
     - OS: Windows or Linux
     
     ```
-    gcp_main.exe --info_json ./Target/[OS]/info.json
+    zcon_create_gcp.exe --info_json ./Target/[OS]/info.json
     ```
     
 
