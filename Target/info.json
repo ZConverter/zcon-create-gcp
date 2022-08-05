@@ -1,0 +1,23 @@
+{
+    "generate":{
+        "cloud_platform": "gcp",
+        "auth":
+          { 
+            "credentials_path":"credentials.json",
+            "region":"asia-northeast3"
+          },
+        "vm_info": 
+          {
+            "OS" : "windows",
+            "OS_version" : "2012",
+            "vm_name" : "test-target",
+            "machine_type" : "e2-medium",
+            "username":"login-target",
+            "ssh_authorized_keys" : "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCL7gKFRIem2RqWoSot0bRdceCqbF7GUpR/UKIqwXYBqer0bQEOeJXHYccq3sN5Fe9zbzJKBwJW/2yeX0txW84JG5WpmHLKOLnK7eUAgPXgkQpz8rCZ6iT2f6lwUDpWy1c/LnNJnaSPa5v5qeqD7x4p9SZ5HC3daVHV8u2n6cYrFWl7f0eyIXj7TcsVOd77YAJBKmM3FbvvQNq5yISA6mXsUdYdwed338/m+bCZqCOIYAmxM4zIqG0lWUp2nbz/HTI/Ue9nt3roEJrfgRB0tzhXmGhVcNdz55/12HpWsER11FlRGLxyO0aylP6Q4aO7FgC0mX/kk5YQNVfeiQJJhRbp gcp_yj",
+            "volume" : [50, 50],
+            "user_script":"win_script.ps1",
+            "tags":"",
+            "firewall_rule":[]
+        }
+    }
+  }
