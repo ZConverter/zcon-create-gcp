@@ -10,7 +10,7 @@ By following this guide, you can create Target VMs for ZConverter Cloud Manageme
 
 ### ****Architecture Diagram****
 
-![https://www.notion.so./img/architecture.png](https://www.notion.so./img/architecture.png)
+![Untitled](./img/architecture.png)
 
 ---
 
@@ -39,11 +39,11 @@ For more information about Service account, see **[Authorizing the gcloud CLI](h
 
 1. Go to the **Sevice Accounts** page in the Google Cloud console
     
-    ![https://www.notion.so./img/IAM.png](https://www.notion.so./img/IAM.png)
+    ![Untitled](./img/IAM.png)
     
 2. Choose an existing account or create a new accout by clicking **Create service account**.
     
-    ![https://www.notion.so./img/service_account.png](https://www.notion.so./img/service_account.png)
+    ![Untitled](./img/service_account.png)
     
 3. Create new JSON-formatted key file:
     1. Click **KEYS**
@@ -52,9 +52,9 @@ For more information about Service account, see **[Authorizing the gcloud CLI](h
     4. Select a key format **JSON** and then click **Create** (It will be downloaded to your local system)
     5. Move your key file to a folder where you run the gcp_main.exe
     
-    ![https://www.notion.so./img/add_key.png](https://www.notion.so./img/add_key.png)
+    ![Untitled](./img/add_key.png)
     
-    ![https://www.notion.so./img/create_key.png](https://www.notion.so./img/create_key.png)
+    ![Untitled](./img/create_key.png)
     
 
 ### **Create SSH Key for OS Login**
@@ -65,13 +65,13 @@ For more information, see **[Create an SSH key pair](https://cloud.google.com/co
 
 **For Linux and macOS**
 
-```json
+```
 ssh-keygen -t rsa -f KEY_FILENAME -C USERNAME -b 2048
 ```
 
 **For Windows 10 or later**
 
-```json
+```
 ssh-keygen -t rsa -f KEY_FILENAME -C USERNAME -b 2048
 ```
 
@@ -94,8 +94,9 @@ For each instance you want to create, modify **info.json** about the values list
 
 - You must specify **credentials_path, vm_name.**
 
-### Description of info.json
-
+<details>
+<summary> Description about info.json </summary>
+<div markdown="1">
 1. credentials_path (string)
     
     The name of the credential key file created on the previous step. You must specify it.
@@ -204,7 +205,8 @@ For each instance you want to create, modify **info.json** about the values list
     }
   }
 ```
-
+</div>
+</details>
 You can use one of the following steps depends on your case:
 
 ### The Steps for ZCM VMs
