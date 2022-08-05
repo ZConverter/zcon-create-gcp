@@ -215,7 +215,7 @@ You can use one of the following steps depends on your case:
     1. Change **credentials_path** to the name of the credential key file created on the previous step. 
     2. Change **vm_name** to be unique to the project.
     3. If required, change other values 
-2. Go to the folder where you run gcp_main.exe
+2. Go to the folder where you run zcon_create_gcp.exe
 3. Run the following commands:
     
     ```
@@ -229,7 +229,7 @@ You can use one of the following steps depends on your case:
     1. Change **credentials_path** to the name of the credential key file created on the previous step. 
     2. Change **vm_name** to be unique to the project.
     3. If required, change other values 
-2. Go to the folder where you run gcp_main.exe
+2. Go to the folder where you run zcon_create_gcp.exe
 3. Run the following commands:
     - OS: Windows or Linux
     
