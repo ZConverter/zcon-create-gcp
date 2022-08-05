@@ -50,7 +50,7 @@ For more information about Service account, see **[Authorizing the gcloud CLI](h
     2. Click the **ADD KEY** drop down menu.
     3. Click **Create new key**
     4. Select a key format **JSON** and then click **Create** (It will be downloaded to your local system)
-    5. Move your key file to a folder where you run the gcp_main.exe
+    5. Move your key file to a folder where you run the zcon_create_gcp.exe
     
     ![Untitled](./img/add_key.png)
     
