@@ -84,8 +84,8 @@ ssh-keygen -t rsa -f KEY_FILENAME -C USERNAME -b 2048
 Create a local copy of this repository:
 
 ```
-git clone https://github.com/ZConverter/gcloud-auto-create-vm.git
-cd gcloud-auto-create-vm
+git clone https://github.com/ZConverter/zcon-create-gcp.git
+cd zcon-create-gcp
 ```
 
 ### 2. **Modify info.json and Create VMs**
