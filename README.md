@@ -24,7 +24,7 @@ For more information, see **[gcloud API Prerequisites](https://cloud.google.com/
 
 ### **Installation**
 
-Before run gcp_main.exe, install **python**, **gcloud CLI**
+Before run zcon_create_gcp.exe, install **python**, **gcloud CLI**
 
 See **[how to install gcloud CLI](https://cloud.google.com/sdk/docs/install)**
 
