@@ -1,0 +1,23 @@
+{
+    "generate":{
+        "cloud_platform": "gcp",
+        "auth":
+          { 
+            "credentials_path":"credentials.json",
+            "region":"asia-northeast3"
+          },
+        "vm_info": 
+          {
+            "OS" : "windows",
+            "OS_version" : "2012",
+            "vm_name" : "test-target",
+            "machine_type" : "e2-medium",
+            "username":"login-target",
+            "ssh_authorized_keys" : "",
+            "volume" : [50],
+            "user_script":"win_script.ps1",
+            "tags":"",
+            "firewall_rule":[]
+        }
+    }
+  }
