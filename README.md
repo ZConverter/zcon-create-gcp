@@ -97,12 +97,12 @@ For each instance you want to create, modify **info.json** about the values list
 <details>
 <summary> Description about info.json </summary>
 <div markdown="1">
+
 1. credentials_path (string)
     
     The name of the credential key file created on the previous step. You must specify it.
+    You can create it by using either the Google Cloud Console or gcloud iam service-accounts keys create. The key file can be .json (preferred) or .p12 (legacy) format. In case of legacy .p12 files, a separate password might be required and is displayed in the Console when you create the key.
     
-    > You can create it by using either the Google Cloud Console or gcloud iam service-accounts keys create. The key file can be .json (preferred) or .p12 (legacy) format. In case of legacy .p12 files, a separate password might be required and is displayed in the Console when you create the key.
-    > 
 2. region (string)
     
     Region which specifies zone which you want to create the instance. The default region is “asia-northeast3”. If you want to display Compute Engine regions in a project, run **`gcloud compute region list`.**
