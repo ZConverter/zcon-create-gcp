@@ -101,7 +101,7 @@ For each instance you want to create, modify **info.json** about the values list
 1. credentials_path (string)
     
     The name of the credential key file created on the previous step. You must specify it.
-    You can create it by using either the Google Cloud Console or gcloud iam service-accounts keys create. The key file can be .json (preferred) or .p12 (legacy) format. In case of legacy .p12 files, a separate password might be required and is displayed in the Console when you create the key.
+    You can create it by using either the Google Cloud Console or gcloud CLI command. The key file can be .json (preferred) or .p12 (legacy) format. In case of legacy .p12 files, a separate password might be required and is displayed in the Console when you create the key.
     
 2. region (string)
     
