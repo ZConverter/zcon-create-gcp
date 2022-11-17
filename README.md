@@ -223,7 +223,7 @@ You can use one of the following steps depends on your case:
     ```
     
 
-### The Steps Target VMs
+### The Steps for Target VMs
 
 1. Check **./Target/[OS]/info.json** and modify to create a ZCM VM. For windows, **./Target/Windows/info.json**. For linux, **./Target/Linux/info.json**
     1. Change **credentials_path** to the name of the credential key file created on the previous step. 
